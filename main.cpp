@@ -3,19 +3,21 @@
 
 using namespace std;
 
-const float MY_SGD = 0.34;
-const float MY_USD = 0.25;
-const float MY_EU  = 0.21;
-const float MY_GBP = 0.19;
-const float MY_RMB = 1.60;
-const float MY_THB = 8.07;
-const float MY_INR = 17.06;
+// Currency rate
+// Last updated on July 9, 2021
+const float MY_SGD = 0.32;
+const float MY_USD = 0.24;
+const float MY_EU  = 0.20;
+const float MY_GBP = 0.17;
+const float MY_RMB = 1.55;
+const float MY_THB = 7.81;
+const float MY_INR = 17.83;
 
 int main()
 {
     int choice;
     float amount_before, amount_after;
-    char again;
+
 
     cout<<"~~~~~~~~~~~~~~~~~~~~~~~~~~~~_______________________________~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
     cout<<"~~~~~~~~~~~~~~~~~~~~~~~~~~~~_______________________________~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
